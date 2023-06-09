@@ -1,34 +1,29 @@
+package base;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.AssertJUnit;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
+import pages.HomePage;
 
 
 import static java.util.concurrent.TimeUnit.SECONDS;
 
 
-public class FirstJenkinsTests {
+public class BaseTests {
 
     private WebDriver driver;
-
-    @Test
-    public void testEasy(){
-        goHome();
-        driver.manage().window().maximize(); //Maximize the browser window
-
-        String title = driver.getTitle();
-        AssertJUnit.assertEquals(title, "Test Automation University | Applitools");
-    }
-
-    @BeforeTest
-    public void beforeTest(){
+    protected HomePage homePage;
+    @BeforeClass
+    public void setUp(){
         System.setProperty("webdriver.chrome.driver", "resources/chromedriver.exe");
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(10, SECONDS);
         driver.manage().timeouts().pageLoadTimeout(100, SECONDS);
 
+        goHome();
+        driver.manage().window().maximize(); //Maximize the browser window
+        homePage = new HomePage(driver);
     }
 
     @AfterTest
@@ -36,6 +31,7 @@ public class FirstJenkinsTests {
         driver.quit();
     }
 
+    @BeforeMethod
     public void goHome(){
         driver.get("https://testautomationu.applitools.com/"); //Open the URL
     }

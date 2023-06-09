@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="290d0d76-bf2e-45c8-93d0-4f1be691bfce" name="Changes" comment="Jenkins Github Test">
+    <list default="true" id="290d0d76-bf2e-45c8-93d0-4f1be691bfce" name="Changes" comment="WWebListener Error Solved">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test1/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test2/Test2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FirstJenkinsTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FirstJenkinsTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FirstJenkinsTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +37,8 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/cosorio/Daniel/TestAutomation_Projects/CICDJenkinsTests/resources"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/cosorio/Daniel/TestAutomation_Projects/AutomationsCPBoost_6C"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -41,12 +46,48 @@
       <recent name="C:\Users\cosorio\Daniel\TestAutomation_Projects\CICDJenkinsTests\resources" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="FirstJenkinsTests.testEasy" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.Test2.getTextTest">
+    <configuration name="BaseTests.testEasy" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="CICDJenkinsTests" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FirstJenkinsTests" />
+      <option name="MAIN_CLASS_NAME" value="base.BaseTests" />
       <option name="METHOD_NAME" value="testEasy" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test1.getTitleTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="CICDJenkinsTests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test1" />
+      <option name="MAIN_CLASS_NAME" value="test1.Test1" />
+      <option name="METHOD_NAME" value="getTitleTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test2.getTextTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="CICDJenkinsTests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test2" />
+      <option name="MAIN_CLASS_NAME" value="test2.Test2" />
+      <option name="METHOD_NAME" value="getTextTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -56,7 +97,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.FirstJenkinsTests.testEasy" />
+        <item itemvalue="TestNG.Test2.getTextTest" />
+        <item itemvalue="TestNG.Test1.getTitleTest" />
+        <item itemvalue="TestNG.BaseTests.testEasy" />
       </list>
     </recent_temporary>
   </component>
@@ -83,11 +126,19 @@
       <option name="project" value="LOCAL" />
       <updated>1686340772988</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="WWebListener Error Solved">
+      <created>1686342255156</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1686342255156</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Jenkins Github Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Jenkins Github Test" />
+    <MESSAGE value="WWebListener Error Solved" />
+    <option name="LAST_COMMIT_MESSAGE" value="WWebListener Error Solved" />
   </component>
 </project>

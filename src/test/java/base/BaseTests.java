@@ -25,7 +25,7 @@ public class BaseTests {
         homePage = new HomePage(driver);
     }
 
-    @AfterTest
+    @AfterMethod
     public void afterTest(){
         driver.quit();
     }

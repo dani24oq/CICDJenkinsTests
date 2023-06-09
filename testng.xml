@@ -3,13 +3,13 @@
 <suite thread-count="2" verbose="1" name="Parallel Test Suite"
        annotations="JDK" parallel="tests">
 
-    <test name="getTitleTest">
+    <test name="Test1">
         <classes>
             <class name="test1.Test1"/>
         </classes>
     </test>
 
-    <test name="getTextTest">
+    <test name="Test2">
         <classes>
             <class name="test2.Test2"/>
         </classes>

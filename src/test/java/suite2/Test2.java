@@ -1,4 +1,4 @@
-package test2;
+package suite2;
 
 import base.BaseTests;
 import org.testng.annotations.Test;

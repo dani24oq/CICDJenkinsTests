@@ -5,13 +5,13 @@
 
     <test name="Test1">
         <classes>
-            <class name="test1.Test1"/>
+            <class name="suite1.Test1"/>
         </classes>
     </test>
 
     <test name="Test2">
         <classes>
-            <class name="test2.Test2"/>
+            <class name="suite2.Test2"/>
         </classes>
     </test>
 </suite>

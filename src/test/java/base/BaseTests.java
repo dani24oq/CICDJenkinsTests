@@ -6,14 +6,10 @@ import org.testng.annotations.*;
 import pages.HomePage;
 
 
-import static java.util.concurrent.TimeUnit.SECONDS;
-
-
 public class BaseTests {
 
     private WebDriver driver;
     protected HomePage homePage;
-    private String browser;
     @BeforeMethod
     public void setUp(){
         System.setProperty("webdriver.chrome.driver", "resources/chromedriver.exe");

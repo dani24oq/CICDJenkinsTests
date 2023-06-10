@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="290d0d76-bf2e-45c8-93d0-4f1be691bfce" name="Changes" comment="Testng File added 4">
+    <list default="true" id="290d0d76-bf2e-45c8-93d0-4f1be691bfce" name="Changes" comment="Testng File added 7">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
@@ -204,7 +204,28 @@
       <option name="project" value="LOCAL" />
       <updated>1686359718947</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Testng File added 5">
+      <created>1686410349294</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1686410349294</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Testng File added 6">
+      <created>1686410602948</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1686410602948</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Testng File added 7">
+      <created>1686410622810</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1686410622810</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -218,6 +239,9 @@
     <MESSAGE value="Testng File added 2" />
     <MESSAGE value="Testng File added 3" />
     <MESSAGE value="Testng File added 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Testng File added 4" />
+    <MESSAGE value="Testng File added 5" />
+    <MESSAGE value="Testng File added 6" />
+    <MESSAGE value="Testng File added 7" />
+    <option name="LAST_COMMIT_MESSAGE" value="Testng File added 7" />
   </component>
 </project>

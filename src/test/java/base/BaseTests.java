@@ -13,19 +13,21 @@ public class BaseTests {
 
     private WebDriver driver;
     protected HomePage homePage;
-    @BeforeMethod
+    private String browser;
+    @BeforeTest
     public void setUp(){
         System.setProperty("webdriver.chrome.driver", "resources/chromedriver.exe");
         driver = new ChromeDriver();
-        driver.manage().timeouts().implicitlyWait(10, SECONDS);
-        driver.manage().timeouts().pageLoadTimeout(100, SECONDS);
+
+//        driver.manage().timeouts().implicitlyWait(10, SECONDS);
+//        driver.manage().timeouts().pageLoadTimeout(100, SECONDS);
 
         goHome();
         driver.manage().window().maximize(); //Maximize the browser window
         homePage = new HomePage(driver);
     }
 
-    @AfterMethod
+    @AfterTest
     public void afterTest(){
         driver.quit();
     }

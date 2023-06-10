@@ -14,7 +14,7 @@ public class BaseTests {
     private WebDriver driver;
     protected HomePage homePage;
     private String browser;
-    @BeforeTest
+    @BeforeMethod
     public void setUp(){
         System.setProperty("webdriver.chrome.driver", "resources/chromedriver.exe");
         driver = new ChromeDriver();
@@ -27,7 +27,7 @@ public class BaseTests {
         homePage = new HomePage(driver);
     }
 
-    @AfterTest
+    @AfterMethod
     public void afterTest(){
         driver.quit();
     }

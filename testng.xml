@@ -5,13 +5,21 @@
 
     <test name="Test1">
         <classes>
-            <class name="suite1.Test1"/>
+            <class name="suite1.Test1">
+            <methods>
+                <include name="getTitleTest"/>
+            </methods>
+            </class>
         </classes>
     </test>
 
     <test name="Test2">
         <classes>
-            <class name="suite2.Test2"/>
+            <class name="suite2.Test2">
+                <methods>
+                    <include name="getTextTest"/>
+                </methods>
+            </class>
         </classes>
     </test>
 </suite>

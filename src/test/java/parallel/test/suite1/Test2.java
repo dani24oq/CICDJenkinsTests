@@ -1,4 +1,4 @@
-package suite2;
+package parallel.test.suite1;
 
 import base.BaseTests;
 import org.testng.annotations.Test;

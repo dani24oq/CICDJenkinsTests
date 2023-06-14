@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="290d0d76-bf2e-45c8-93d0-4f1be691bfce" name="Changes" comment="Testng File added 8">
+    <list default="true" id="290d0d76-bf2e-45c8-93d0-4f1be691bfce" name="Changes" comment="Testng File added 10">
+      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,31 +29,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/cosorio/Daniel/TestAutomation_Projects/CICDJenkinsTests"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/cosorio/Daniel/TestAutomation_Projects/CICDJenkinsTests&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "XML"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;XML&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\cosorio\Daniel\TestAutomation_Projects\CICDJenkinsTests\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Test2.getTextTest">
+  <component name="RunManager" selected="TestNG.C:/Users/cosorio/Daniel/TestAutomation_Projects/CICDJenkinsTests/testng.xml">
     <configuration name="BaseTests.testEasy" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="CICDJenkinsTests" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="base.BaseTests" />
       <option name="METHOD_NAME" value="testEasy" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/cosorio/Daniel/TestAutomation_Projects/CICDJenkinsTests/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="CICDJenkinsTests" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -81,12 +92,12 @@
       <module name="CICDJenkinsTests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="suite2.*" />
+          <option name="PATTERN" value="parallel.test.suite1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test2" />
-      <option name="MAIN_CLASS_NAME" value="suite2.Test2" />
+      <option name="MAIN_CLASS_NAME" value="parallel.test.suite1.Test2" />
       <option name="METHOD_NAME" value="getTextTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -97,6 +108,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/cosorio/Daniel/TestAutomation_Projects/CICDJenkinsTests/testng.xml" />
         <item itemvalue="TestNG.Test2.getTextTest" />
         <item itemvalue="TestNG.Test1.getTitleTest" />
         <item itemvalue="TestNG.BaseTests.testEasy" />
@@ -231,7 +243,21 @@
       <option name="project" value="LOCAL" />
       <updated>1686411241689</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Testng File added 9">
+      <created>1686757204687</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1686757204687</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Testng File added 10">
+      <created>1686757942046</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1686757942046</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -249,6 +275,8 @@
     <MESSAGE value="Testng File added 6" />
     <MESSAGE value="Testng File added 7" />
     <MESSAGE value="Testng File added 8" />
-    <option name="LAST_COMMIT_MESSAGE" value="Testng File added 8" />
+    <MESSAGE value="Testng File added 9" />
+    <MESSAGE value="Testng File added 10" />
+    <option name="LAST_COMMIT_MESSAGE" value="Testng File added 10" />
   </component>
 </project>
